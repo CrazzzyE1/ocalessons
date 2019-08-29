@@ -1,15 +1,19 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson1.Lesson1;
-import com.ocalessons.lesson2.Lesson2;
+import com.ocalessons.lesson1.BasicPrintFunction;
+import com.ocalessons.lesson2.PrimitiveDataType;
+import com.ocalessons.lesson3.Lesson3;
 
 public class Main {
 
     public static void main(String[] args) {
-        Lesson1 lesson1 = new Lesson1();
-        Lesson2 lesson2 = new Lesson2();
+        BasicPrintFunction basicPrintFunction = new BasicPrintFunction();
+        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
+        Lesson3 lesson3 = new Lesson3();
 
-        lesson1.print();
-        lesson2.print();
+//        basicPrintFunction.print();
+//        primitiveDataType.print();
+        lesson3.print();
+
     }
 }
