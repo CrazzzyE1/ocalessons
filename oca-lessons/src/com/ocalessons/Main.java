@@ -4,6 +4,7 @@ import com.ocalessons.lesson1.BasicPrintFunction;
 import com.ocalessons.lesson2.PrimitiveDataType;
 import com.ocalessons.lesson3.MathAndLogitalOperation;
 import com.ocalessons.lesson4.ClassAndObjects;
+import com.ocalessons.lesson4.Student;
 
 public class Main {
 
