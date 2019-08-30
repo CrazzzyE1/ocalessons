@@ -22,6 +22,6 @@ public class Lesson3 {
         int b = 8;
         int bb = ++b - b++ + ++b - --b;
         System.out.println(bb);
-        
+
     }
 }
