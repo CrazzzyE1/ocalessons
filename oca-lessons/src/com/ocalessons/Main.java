@@ -9,15 +9,16 @@ import com.ocalessons.lesson4.Student;
 public class Main {
 
     public static void main(String[] args) {
-        BasicPrintFunction basicPrintFunction = new BasicPrintFunction();
-        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
-        MathAndLogitalOperation lesson3 = new MathAndLogitalOperation();
-        ClassAndObjects classAndObjects = new ClassAndObjects();
+//        BasicPrintFunction basicPrintFunction = new BasicPrintFunction();
+//        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
+//        MathAndLogitalOperation lesson3 = new MathAndLogitalOperation();
+//        ClassAndObjects classAndObjects = new ClassAndObjects();
 
 //        basicPrintFunction.print();
 //        primitiveDataType.print();
 //        MathAndLogitalOperation.print();
-        classAndObjects.print();
+//        classAndObjects.print();
+        
 
     }
 }
