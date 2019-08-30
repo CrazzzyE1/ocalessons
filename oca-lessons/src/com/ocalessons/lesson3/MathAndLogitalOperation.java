@@ -1,6 +1,6 @@
 package com.ocalessons.lesson3;
 
-public class Lesson3 {
+public class MathAndLogitalOperation {
     public static void print() {
         System.out.println("lesson 3");
         System.out.println();
