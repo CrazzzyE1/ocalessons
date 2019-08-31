@@ -1,6 +1,6 @@
 package com.ocalessons.lesson4;
 
-import java.text.DecimalFormat;
+import com.ocalessons.lesson5.Employee;
 
 public class ClassAndObjects {
         public static void print() {
@@ -32,22 +32,27 @@ public class ClassAndObjects {
         student3.avgEnglish = 4.75;
         student3.year = 1997;
 
-        double avg1 = (student1.avgEnglish + student1.avgEconomy + student1.avgMath) / 3;
-        double avg2 = (student2.avgEnglish + student2.avgEconomy + student2.avgMath) / 3;
-        double avg3 = (student3.avgEnglish + student3.avgEconomy + student3.avgMath) / 3;
+        String s = student1.avgBall();
+                System.out.println(s);
+    }
 
-        // Паттерн форматирования строки до двух символов после запятой.
-        String pattern = "##0.00";
-        DecimalFormat decimalFormat = new DecimalFormat(pattern);
-
-        String format1 = decimalFormat.format(avg1);
-        String format2 = decimalFormat.format(avg2);
-        String format3 = decimalFormat.format(avg3);
-
-
-        System.out.println("AvgBall of " + student1.Surname + " " + student1.name +" is " + format1);
-        System.out.println("AvgBall of " + student2.Surname + " " + student2.name +" is " + format2);
-        System.out.println("AvgBall of " + student3.Surname + " " + student3.name +" is " + format3);
+    public void print2 () {
+            Employee em1 = new Employee(1, "Petrov", 18, 20_000.00, "PO");
+            Employee em2 = new Employee(2, "Sidorov", 20, 25_000.00, "Soft");
+            em1.info();
+            em2.info();
+            em1.upSalary();
+            em2.upSalary();
+            em1.info();
+            em2.info();
+            em1.downSalary();
+            em2.downSalary();
+            em1.info();
+            em2.info();
+            em1.downSalary();
+            em2.downSalary();
+            em1.info();
+            em2.info();
     }
 
 
