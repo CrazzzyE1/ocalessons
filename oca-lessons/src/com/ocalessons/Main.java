@@ -16,7 +16,7 @@ public class Main {
 //        MathAndLogitalOperation lesson3 = new MathAndLogitalOperation();
 //        ClassAndObjects classAndObjects = new ClassAndObjects();
 //        ConstructorsAndMethods constructorsAndMethods = new ConstructorsAndMethods();
-        OverloadedMethodsAndConstructors omac = new OverloadedMethodsAndConstructors();
+//        OverloadedMethodsAndConstructors omac = new OverloadedMethodsAndConstructors();
 
 //        basicPrintFunction.print();
 //        primitiveDataType.print();
@@ -24,13 +24,13 @@ public class Main {
 //        classAndObjects.print();
 //        constructorsAndMethods.start();
 //        classAndObjects.print2();
-        omac.summ();
-        omac.summ(5);
-        omac.summ(6, 7);
-        omac.summ(8,5,4,6);
-        omac.summ(8,6,4,9);
-        System.out.println();
-        omac.print();
+//        omac.summ();
+//        omac.summ(5);
+//        omac.summ(6, 7);
+//        omac.summ(8,5,4,6);
+//        omac.summ(8,6,4,9);
+//        System.out.println();
+//        omac.print();
 
 
     }
