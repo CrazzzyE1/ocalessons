@@ -1,6 +1,6 @@
 package com.ocalessons.lesson4;
 
-import java.text.DecimalFormat;
+import com.ocalessons.lesson5.Employee;
 
 public class ClassAndObjects {
         public static void print() {
@@ -32,8 +32,27 @@ public class ClassAndObjects {
         student3.avgEnglish = 4.75;
         student3.year = 1997;
 
-        String s = student3.avgBall();
+        String s = student1.avgBall();
                 System.out.println(s);
+    }
+
+    public void print2 () {
+            Employee em1 = new Employee(1, "Petrov", 18, 20_000.00, "PO");
+            Employee em2 = new Employee(2, "Sidorov", 20, 25_000.00, "Soft");
+            em1.info();
+            em2.info();
+            em1.upSalary();
+            em2.upSalary();
+            em1.info();
+            em2.info();
+            em1.downSalary();
+            em2.downSalary();
+            em1.info();
+            em2.info();
+            em1.downSalary();
+            em2.downSalary();
+            em1.info();
+            em2.info();
     }
 
 
