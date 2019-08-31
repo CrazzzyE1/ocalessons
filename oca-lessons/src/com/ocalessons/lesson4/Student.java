@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Student {
     int idNumber;
     String name;
-    String Surname;
+    String surname;
     int year;
     double avgMath;
     double avgEconomy;
@@ -20,7 +20,7 @@ public class Student {
 
         String format = decimalFormat.format(avg);
 
-        format = "AvgBall of " + Surname + " " + name +" is " + format;
+        format = "AvgBall of " + surname + " " + name +" is " + format;
         return format;
     }
 }

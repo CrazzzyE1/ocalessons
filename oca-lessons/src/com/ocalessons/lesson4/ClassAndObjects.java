@@ -10,7 +10,7 @@ public class ClassAndObjects {
 
         student1.idNumber = 1;
         student1.name = "Ivan";
-        student1.Surname = "Ivanov";
+        student1.surname = "Ivanov";
         student1.avgMath = 4.0;
         student1.avgEconomy = 3.5;
         student1.avgEnglish = 3.75;
@@ -18,7 +18,7 @@ public class ClassAndObjects {
 
         student2.idNumber = 2;
         student2.name = "Petr";
-        student2.Surname = "Petrov";
+        student2.surname = "Petrov";
         student2.avgMath = 4.0;
         student2.avgEconomy = 2.75;
         student2.avgEnglish = 4.75;
@@ -26,7 +26,7 @@ public class ClassAndObjects {
 
         student3.idNumber = 3;
         student3.name = "Sidor";
-        student3.Surname = "Sidorov";
+        student3.surname = "Sidorov";
         student3.avgMath = 3.65;
         student3.avgEconomy = 5.0;
         student3.avgEnglish = 4.75;
