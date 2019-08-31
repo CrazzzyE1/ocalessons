@@ -6,6 +6,11 @@ public class ConstructorsAndMethods {
         BankAccount bankAccount1 = new BankAccount(1, 102.5);
         Human human = new Human("Petr", car1, bankAccount1);
         info(human);
+        bankAccount1.popolneniu(200.0);
+        info(human);
+        bankAccount1.snyatie(205);
+        info(human);
+
         }
 
         public void info(Human human) {

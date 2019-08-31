@@ -9,5 +9,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public void popolneniu(double popolnennie) {
+        balance += popolnennie;
+    }
+    public void snyatie(double snyatie) {
+        balance -= snyatie;
+    }
 
 }

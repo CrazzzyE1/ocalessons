@@ -13,14 +13,14 @@ public class Main {
 //        BasicPrintFunction basicPrintFunction = new BasicPrintFunction();
 //        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
 //        MathAndLogitalOperation lesson3 = new MathAndLogitalOperation();
-//        ClassAndObjects classAndObjects = new ClassAndObjects();
-        ConstructorsAndMethods constructorsAndMethods = new ConstructorsAndMethods();
+        ClassAndObjects classAndObjects = new ClassAndObjects();
+//        ConstructorsAndMethods constructorsAndMethods = new ConstructorsAndMethods();
 
 //        basicPrintFunction.print();
 //        primitiveDataType.print();
 //        MathAndLogitalOperation.print();
-//        classAndObjects.print();
-        constructorsAndMethods.start();
+        classAndObjects.print();
+//        constructorsAndMethods.start();
 
 
 
