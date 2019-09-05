@@ -1,6 +1,6 @@
 package com.ocalessons.lesson9;
 
-public class Dog {
-    String name;
+public class Car {
     String color;
+    String engine;
 }
