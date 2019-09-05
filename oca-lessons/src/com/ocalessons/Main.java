@@ -1,6 +1,7 @@
 package com.ocalessons;
 
 import com.ocalessons.lesson1.BasicPrintFunction;
+import com.ocalessons.lesson10.ImportStatic;
 import com.ocalessons.lesson2.PrimitiveDataType;
 import com.ocalessons.lesson3.MathAndLogitalOperation;
 import com.ocalessons.lesson4.ClassAndObjects;
@@ -54,8 +55,11 @@ public class Main {
 //        FinalStaticLesson fsl = new FinalStaticLesson();
 //        fsl.startLesson8();
 // lesson 9
-        DifferentVariables dv = new DifferentVariables();
-        dv.startLesson9();
+//        DifferentVariables dv = new DifferentVariables();
+//        dv.startLesson9()
+// lesson 10
+        ImportStatic is = new ImportStatic();
+        is.startLesson10();
 
     }
 }
