@@ -7,6 +7,9 @@ import com.ocalessons.lesson4.ClassAndObjects;
 import com.ocalessons.lesson4.Student;
 import com.ocalessons.lesson5.ConstructorsAndMethods;
 import com.ocalessons.lesson6.OverloadedMethodsAndConstructors;
+import  com.ocalessons.lesson7.CreateClass;
+import  com.ocalessons.lesson7.Employee;
+
 
 public class Main {
 
@@ -31,6 +34,20 @@ public class Main {
 //        omac.summ(8,6,4,9);
 //        System.out.println();
 //        omac.print();
+        Employee emp1 = new Employee(1, "Petrov", 1, 500.0, "SOFT");
+//        Employee emp2 = new Employee(2, "Sidorov", 500.0);
+//        Default constructor don't work in other Class
+//        Employee emp3 = new Employee(3,500.0);
+        //      Private CONSTRUCTOR DON'T WORK;
+
+
+        emp1.printId();
+        emp1.printSurname();
+        emp1.printSalary();
+        System.out.println(emp1.surname);
+//        System.out.println(emp1.id);
+//        System.out.println(emp1.salary);
+//        Don't work because they default and private
 
 
     }
