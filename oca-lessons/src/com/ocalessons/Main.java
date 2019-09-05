@@ -10,6 +10,7 @@ import com.ocalessons.lesson6.OverloadedMethodsAndConstructors;
 import  com.ocalessons.lesson7.CreateClass;
 import  com.ocalessons.lesson7.Employee;
 import com.ocalessons.lesson8.FinalStaticLesson;
+import com.ocalessons.lesson9.DifferentVariables;
 
 
 public class Main {
@@ -50,9 +51,11 @@ public class Main {
 //        System.out.println(emp1.salary);
 //        Don't work because they default and private
 // lesson 8
-        FinalStaticLesson fsl = new FinalStaticLesson();
-        fsl.startLesson8();
-
+//        FinalStaticLesson fsl = new FinalStaticLesson();
+//        fsl.startLesson8();
+// lesson 9
+        DifferentVariables dv = new DifferentVariables();
+        dv.startLesson9();
 
     }
 }
