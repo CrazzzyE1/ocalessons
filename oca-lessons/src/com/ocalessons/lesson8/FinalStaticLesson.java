@@ -7,6 +7,10 @@ public class FinalStaticLesson {
         FirstClass.multNumbers(8,9,10);
         FirstClass.ostatokAndCeloe(2, 3);
         FirstClass.ostatokAndCeloe(24,5);
+        System.out.println();
+        SecondClass sc = new SecondClass();
+        sc.sMethod(5.0);
+        sc.areaOfCircle(5);
     }
 
 }
