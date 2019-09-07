@@ -8,8 +8,7 @@ public class Lesson11 {
 
     public void swipeColor(Car c1, Car c2) {
         String str1 = c1.color;
-        String str2 = c2.color;
-        c1.color = str2;
+        c1.color= c2.color;
         c2.color = str1;
     }
 
@@ -20,10 +19,10 @@ public class Lesson11 {
         Car car2 = new Car("Red", "V6", 5);
         car1.printInfo();
         car2.printInfo();
-//        changeNumbersOfDoors(car1, 10);
-//        changeNumbersOfDoors(car2, 20);
-//        car1.printInfo();
-//        car2.printInfo();
+        changeNumbersOfDoors(car1, 10);
+        changeNumbersOfDoors(car2, 20);
+        car1.printInfo();
+        car2.printInfo();
         swipeColor(car1, car2);
         car1.printInfo();
         car2.printInfo();
