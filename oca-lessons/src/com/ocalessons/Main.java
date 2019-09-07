@@ -2,6 +2,7 @@ package com.ocalessons;
 
 import com.ocalessons.lesson10.A;
 import com.ocalessons.lesson10.p4.D;
+import com.ocalessons.lesson11.Lesson11;
 
 
 public class Main {
@@ -48,10 +49,14 @@ public class Main {
 //        DifferentVariables dv = new DifferentVariables();
 //        dv.startLesson9()
 // lesson 10
-        A is = new A();
-        is.startLesson10();
-        D dd = new D();
-        dd.testACE();
+//        A is = new A();
+//        is.startLesson10();
+//        D dd = new D();
+//        dd.testACE();
+
+        // lesson 11
+        Lesson11 l11 = new Lesson11();
+        l11.startLesson11();
 
     }
 }
