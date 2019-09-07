@@ -3,6 +3,7 @@ package com.ocalessons;
 import com.ocalessons.lesson10.A;
 import com.ocalessons.lesson10.p4.D;
 import com.ocalessons.lesson11.Lesson11;
+import com.ocalessons.lesson12.Lesson12;
 
 
 public class Main {
@@ -55,8 +56,12 @@ public class Main {
 //        dd.testACE();
 
         // lesson 11
-        Lesson11 l11 = new Lesson11();
-        l11.startLesson11();
+//        Lesson11 l11 = new Lesson11();
+//        l11.startLesson11();
+
+        // lesson 12
+        Lesson12 l12 = new Lesson12();
+        l12.startLesson12();
 
     }
 }
