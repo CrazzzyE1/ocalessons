@@ -3,7 +3,9 @@ package com.ocalessons.lesson10.p4;
 import com.ocalessons.lesson10.A;
 import com.ocalessons.lesson10.p2.B;
 import com.ocalessons.lesson10.p2.p3.C;
-import com.ocalessons.lesson10.p4.p5.E;
+import com.ocalessons.lesson10.p4.p5.*;
+
+import static com.ocalessons.lesson10.p2.B.*;
 
 
 public class D {
