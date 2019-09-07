@@ -1,16 +1,7 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson1.BasicPrintFunction;
-import com.ocalessons.lesson2.PrimitiveDataType;
-import com.ocalessons.lesson3.MathAndLogitalOperation;
-import com.ocalessons.lesson4.ClassAndObjects;
-import com.ocalessons.lesson4.Student;
-import com.ocalessons.lesson5.ConstructorsAndMethods;
-import com.ocalessons.lesson6.OverloadedMethodsAndConstructors;
-import  com.ocalessons.lesson7.CreateClass;
-import  com.ocalessons.lesson7.Employee;
-import com.ocalessons.lesson8.FinalStaticLesson;
-import com.ocalessons.lesson9.DifferentVariables;
+import com.ocalessons.lesson10.A;
+import com.ocalessons.lesson10.p4.D;
 
 
 public class Main {
@@ -54,8 +45,13 @@ public class Main {
 //        FinalStaticLesson fsl = new FinalStaticLesson();
 //        fsl.startLesson8();
 // lesson 9
-        DifferentVariables dv = new DifferentVariables();
-        dv.startLesson9();
+//        DifferentVariables dv = new DifferentVariables();
+//        dv.startLesson9()
+// lesson 10
+        A is = new A();
+        is.startLesson10();
+        D dd = new D();
+        dd.testACE();
 
     }
 }
