@@ -4,6 +4,7 @@ import com.ocalessons.lesson10.A;
 import com.ocalessons.lesson10.p4.D;
 import com.ocalessons.lesson11.Lesson11;
 import com.ocalessons.lesson12.Lesson12;
+import com.ocalessons.lesson13.Lesson13;
 
 
 public class Main {
@@ -60,8 +61,11 @@ public class Main {
 //        l11.startLesson11();
 
         // lesson 12
-        Lesson12 l12 = new Lesson12();
-        l12.startLesson12();
+//        Lesson12 l12 = new Lesson12();
+//        l12.startLesson12();
 
+        // lesson 13
+        Lesson13 l13 = new Lesson13();
+        l13.lesson13();
     }
 }
