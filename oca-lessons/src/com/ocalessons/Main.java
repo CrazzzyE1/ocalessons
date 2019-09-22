@@ -72,5 +72,6 @@ public class Main {
         // lesson 14
         Lesson14 l14 = new Lesson14();
         l14.lesson14();
+        l14.clock();
     }
 }
