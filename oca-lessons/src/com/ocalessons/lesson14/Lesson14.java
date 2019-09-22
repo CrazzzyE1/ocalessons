@@ -13,11 +13,11 @@ public class Lesson14 {
                     break OUTER;
                 }
                 for (int k = 0; k < 60; k++) {
-                    System.out.println(i + ":" + j + ":" + k);
-                    if(k * i > j) {
 
+                    if(k * i > j) {
                         continue INNER;
                     }
+                    System.out.println(i + ":" + j + ":" + k);
                 }
             }
         }

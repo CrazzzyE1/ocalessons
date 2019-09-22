@@ -78,6 +78,7 @@ public class Main {
         // lesson 15
         Lesson15 l15 = new Lesson15();
         l15.lesson15();
+        l15.clocks();
 
     }
 }
