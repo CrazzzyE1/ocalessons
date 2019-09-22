@@ -5,6 +5,7 @@ import com.ocalessons.lesson10.p4.D;
 import com.ocalessons.lesson11.Lesson11;
 import com.ocalessons.lesson12.Lesson12;
 import com.ocalessons.lesson13.Lesson13;
+import com.ocalessons.lesson14.Lesson14;
 
 
 public class Main {
@@ -65,7 +66,12 @@ public class Main {
 //        l12.startLesson12();
 
         // lesson 13
-        Lesson13 l13 = new Lesson13();
-        l13.lesson13();
+//        Lesson13 l13 = new Lesson13();
+//        l13.lesson13();
+
+        // lesson 14
+        Lesson14 l14 = new Lesson14();
+        l14.lesson14();
+        l14.clock();
     }
 }
