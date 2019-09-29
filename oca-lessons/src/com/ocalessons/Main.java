@@ -1,9 +1,11 @@
 package com.ocalessons;
 
+import com.ocalessons.lesson10.A;
 import com.ocalessons.lesson16.HomeTaskString;
 import com.ocalessons.lesson16.StringMethods;
 import com.ocalessons.lesson17.SbuilderMethods;
 import com.ocalessons.lesson17.StringBuilderLesson;
+import com.ocalessons.lessson18.ArraysLesson;
 
 
 public class Main {
@@ -85,13 +87,17 @@ public class Main {
 //        ht.lessonHomeTask("abc@mail.ru; gdc@gmail.com; ya@yandex.ru;");
 
         // lesson 17
-        StringBuilderLesson sbl = new StringBuilderLesson();
-        sbl.lesson17();
-        StringBuilder str1 = new StringBuilder("Hello");
-        StringBuilder str2 = new StringBuilder("Hello");
-        System.out.println(sbl.ravenstvo(str1, str2));
-        SbuilderMethods sbm = new SbuilderMethods();
-        sbm.sbMethods();
+//        StringBuilderLesson sbl = new StringBuilderLesson();
+//        sbl.lesson17();
+//        StringBuilder str1 = new StringBuilder("Hello");
+//        StringBuilder str2 = new StringBuilder("Hello");
+//        System.out.println(sbl.ravenstvo(str1, str2));
+//        SbuilderMethods sbm = new SbuilderMethods();
+//        sbm.sbMethods();
+
+        // lesson 18
+        ArraysLesson al = new ArraysLesson();
+        al.lesson18();
 
     }
 }
