@@ -2,6 +2,8 @@ package com.ocalessons;
 
 import com.ocalessons.lesson16.HomeTaskString;
 import com.ocalessons.lesson16.StringMethods;
+import com.ocalessons.lesson17.SbuilderMethods;
+import com.ocalessons.lesson17.StringBuilderLesson;
 
 
 public class Main {
@@ -76,11 +78,20 @@ public class Main {
 //        l15.clocks();
 
         // lesson 16
-        StringMethods l16 = new StringMethods();
-        l16.lesson16();
-        l16.stringMethod();
-        HomeTaskString ht = new HomeTaskString();
-        ht.lessonHomeTask("abc@mail.ru; gdc@gmail.com; ya@yandex.ru;");
+//        StringMethods l16 = new StringMethods();
+//        l16.lesson16();
+//        l16.stringMethod();
+//        HomeTaskString ht = new HomeTaskString();
+//        ht.lessonHomeTask("abc@mail.ru; gdc@gmail.com; ya@yandex.ru;");
+
+        // lesson 17
+        StringBuilderLesson sbl = new StringBuilderLesson();
+        sbl.lesson17();
+        StringBuilder str1 = new StringBuilder("Hello");
+        StringBuilder str2 = new StringBuilder("Hello");
+        System.out.println(sbl.ravenstvo(str1, str2));
+        SbuilderMethods sbm = new SbuilderMethods();
+        sbm.sbMethods();
 
     }
 }
