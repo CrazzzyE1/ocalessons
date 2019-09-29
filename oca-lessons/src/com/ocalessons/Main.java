@@ -1,13 +1,6 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson10.A;
-import com.ocalessons.lesson10.p4.D;
-import com.ocalessons.lesson11.Lesson11;
-import com.ocalessons.lesson12.Lesson12;
-import com.ocalessons.lesson13.Lesson13;
-import com.ocalessons.lesson14.Lesson14;
-import com.ocalessons.lesson15.Lesson15;
-import com.ocalessons.lesson16.Lesson16;
+import com.ocalessons.lesson16.StringMethods;
 
 
 public class Main {
@@ -82,7 +75,7 @@ public class Main {
 //        l15.clocks();
 
         // lesson 16
-        Lesson16 l16 = new Lesson16();
+        StringMethods l16 = new StringMethods();
         l16.lesson16();
 
     }
