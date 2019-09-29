@@ -77,6 +77,7 @@ public class Main {
         // lesson 16
         StringMethods l16 = new StringMethods();
         l16.lesson16();
+        l16.stringMethod();
 
     }
 }
