@@ -1,12 +1,7 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson10.A;
-import com.ocalessons.lesson10.p4.D;
-import com.ocalessons.lesson11.Lesson11;
-import com.ocalessons.lesson12.Lesson12;
-import com.ocalessons.lesson13.Lesson13;
-import com.ocalessons.lesson14.Lesson14;
-import com.ocalessons.lesson15.Lesson15;
+import com.ocalessons.lesson16.HomeTaskString;
+import com.ocalessons.lesson16.StringMethods;
 
 
 public class Main {
@@ -76,9 +71,16 @@ public class Main {
 //        l14.clock();
 
         // lesson 15
-        Lesson15 l15 = new Lesson15();
-        l15.lesson15();
-        l15.clocks();
+//        Lesson15 l15 = new Lesson15();
+//        l15.lesson15();
+//        l15.clocks();
+
+        // lesson 16
+        StringMethods l16 = new StringMethods();
+        l16.lesson16();
+        l16.stringMethod();
+        HomeTaskString ht = new HomeTaskString();
+        ht.lessonHomeTask("abc@mail.ru; gdc@gmail.com; ya@yandex.ru;");
 
     }
 }
