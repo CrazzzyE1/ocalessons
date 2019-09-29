@@ -53,6 +53,50 @@ public class StringMethods {
         System.out.println(s5.equals(s6));
         System.out.println(s5 == s6);
 
+        // endsWith
+        System.out.println("endsWith:");
+        s6 = s1 + s3 + s2 + s3 + s4;
+        System.out.println(s6.endsWith("orld")); // поверяет оканчивается ли строка на параметр в скобке, return boolean
+
+        // startWith
+        System.out.println("startWith");
+        System.out.println(s6.startsWith("Th"));
+        System.out.println(s6.endsWith("his"));
+        System.out.println(s6.startsWith("his", 1)); // true _ because starts from 1 position
+
+
+        // toLowerCase
+        System.out.println("toLowerCase & toUpperCase");
+        System.out.println(s6.toLowerCase());
+        System.out.println(s6.toUpperCase());
+
+        // contains
+        System.out.println(".contains: ");
+        System.out.println(s6.contains("his is")); // true
+        System.out.println(s6.contains("his IS good")); // false
+
+        // substring
+        System.out.println(".substring");
+        String s7 = s6.substring(3);
+        String s8 = s6.substring(3, 10);
+        System.out.println(s6);
+        System.out.println(s7);
+        System.out.println(s8);
+        System.out.println(s7.contains(s8)); // contains one more =)
+
+        //replace
+        System.out.println(".replace: ");
+        System.out.println(s6);
+        System.out.println(s6.replace('i', 'O'));
+        System.out.println(s6.replace("is", "DDD"));
+
+        //isBlank & isEmpty
+        System.out.println("isBlank & isEmpty Java 9");
+//        System.out.println(s6.isBlank()); // return true if  if the string is empty or contains only white space codepoints - otherwise false Java 9
+        System.out.println(s6.isEmpty());
+        s6 = "";
+        System.out.println(s6.isEmpty());
+
 
     }
 }
