@@ -1,5 +1,6 @@
 package com.ocalessons;
 
+import com.ocalessons.lesson16.HomeTaskString;
 import com.ocalessons.lesson16.StringMethods;
 
 
@@ -78,6 +79,8 @@ public class Main {
         StringMethods l16 = new StringMethods();
         l16.lesson16();
         l16.stringMethod();
+        HomeTaskString ht = new HomeTaskString();
+        ht.lessonHomeTask("abc@mail.ru; gdc@gmail.com; ya@yandex.ru;");
 
     }
 }

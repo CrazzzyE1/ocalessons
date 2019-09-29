@@ -91,11 +91,47 @@ public class StringMethods {
         System.out.println(s6.replace("is", "DDD"));
 
         //isBlank & isEmpty
-        System.out.println("isBlank & isEmpty Java 9");
-//        System.out.println(s6.isBlank()); // return true if  if the string is empty or contains only white space codepoints - otherwise false Java 9
+        System.out.println("isBlank & isEmpty Java 11");
+//        System.out.println(s6.isBlank()); // return true if  if the string is empty or contains only white space codepoints - otherwise false Java 11
         System.out.println(s6.isEmpty());
         s6 = "";
         System.out.println(s6.isEmpty());
+
+        //.stripLeading stripTrailing strip
+        System.out.println(".stripLeading stripTrailing strip");
+        System.out.println("repeat(int) - Repeats the String as many times as provided by the int parameter\n" +
+                "        lines() - Uses a Spliterator to lazily provide lines from the source string\n" +
+                "        isBlank() - Indicates if the String is empty or contains only white space characters\n" +
+                "        stripLeading() - Removes the white space from the beginning\n" +
+                "        stripTrailing() - Removes the white space from the end\n" +
+                "        strip() - Removes the white space from both, beginning and the end of string");
+
+        // equals
+        System.out.println();
+        System.out.println();
+        System.out.println("Equals");
+        String str1 = "Hello";
+        String str2 = "Hello";
+        String str3 = new String("Hello");
+        System.out.println(str1 == str2);
+        System.out.println(str1 == str3);
+        System.out.println(str2 == str3);
+
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str3));
+        System.out.println(str2.equals(str3));
+
+        // other Methods
+        s6 = s1 + s3 + s2 + s3 + s4;
+        System.out.println(s6);
+        System.out.println(s6.length());
+        System.out.println(s6.codePointAt(0)); // UTF-8 code for element with index 0
+        System.out.println(s6.codePointBefore(1)); // UTF-8 code for element with index 0
+        System.out.println(s6.codePointCount(4, 10)); //
+        System.out.println(s6.compareTo("o"));
+        System.out.println(s6.getBytes());
+        System.out.println(s6.hashCode());
+
 
 
     }
