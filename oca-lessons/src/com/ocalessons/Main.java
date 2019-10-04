@@ -6,6 +6,7 @@ import com.ocalessons.lesson16.StringMethods;
 import com.ocalessons.lesson17.SbuilderMethods;
 import com.ocalessons.lesson17.StringBuilderLesson;
 import com.ocalessons.lessson18.ArraysLesson;
+import com.ocalessons.lessson18.HomeTask;
 
 
 public class Main {
@@ -96,8 +97,11 @@ public class Main {
 //        sbm.sbMethods();
 
         // lesson 18
-        ArraysLesson al = new ArraysLesson();
-        al.lesson18();
+//        ArraysLesson al = new ArraysLesson();
+//        al.lesson18();
+        HomeTask ht = new HomeTask();
+        ht.homeTask();
+
 
     }
 }
