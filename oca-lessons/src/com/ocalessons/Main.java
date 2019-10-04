@@ -1,12 +1,6 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson10.A;
-import com.ocalessons.lesson16.HomeTaskString;
-import com.ocalessons.lesson16.StringMethods;
-import com.ocalessons.lesson17.SbuilderMethods;
-import com.ocalessons.lesson17.StringBuilderLesson;
-import com.ocalessons.lessson18.ArraysLesson;
-import com.ocalessons.lessson18.HomeTask;
+import com.ocalessons.lesson18.HomeTask;
 
 
 public class Main {
