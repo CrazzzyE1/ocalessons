@@ -1,6 +1,7 @@
 package com.ocalessons;
 
 import com.ocalessons.lesson18.HomeTask;
+import com.ocalessons.lesson19.Lesson19;
 
 
 public class Main {
@@ -93,8 +94,12 @@ public class Main {
         // lesson 18
 //        ArraysLesson al = new ArraysLesson();
 //        al.lesson18();
-        HomeTask ht = new HomeTask();
-        ht.homeTask();
+//        HomeTask ht = new HomeTask();
+//        ht.homeTask();
+
+        // lesson 19
+        Lesson19 l19 = new Lesson19();
+        l19.lesson19();
 
 
     }
