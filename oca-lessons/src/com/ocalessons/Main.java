@@ -1,12 +1,7 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson10.A;
-import com.ocalessons.lesson16.HomeTaskString;
-import com.ocalessons.lesson16.StringMethods;
-import com.ocalessons.lesson17.SbuilderMethods;
-import com.ocalessons.lesson17.StringBuilderLesson;
-import com.ocalessons.lessson18.ArraysLesson;
-import com.ocalessons.lessson18.HomeTask;
+import com.ocalessons.lesson18.HomeTask;
+import com.ocalessons.lesson19.Lesson19;
 
 
 public class Main {
@@ -99,9 +94,21 @@ public class Main {
         // lesson 18
 //        ArraysLesson al = new ArraysLesson();
 //        al.lesson18();
-        HomeTask ht = new HomeTask();
-        ht.homeTask();
+//        HomeTask ht = new HomeTask();
+//        ht.homeTask();
 
+        // lesson 19
+        Lesson19 l19 = new Lesson19();
+        l19.lesson19();
 
+        String[] args1 = {"Hello" , "Oh"};
+        String[] s1 = {"Hello", "World"};
+        String[] s2 = {"Oh", "My", "God"};
+        String ss[] = l19.stringArrays(s1, s2);
+
+        l19.print(ss);
+        l19.equals(args1, ss);
+        l19.print(args1);
+        l19.print(ss);
     }
 }
