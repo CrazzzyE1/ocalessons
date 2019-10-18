@@ -111,11 +111,12 @@ public class Main {
 //        l19.equals(args1, ss);
 //        l19.print(args1);
 //        l19.print(ss);
-//    
+//
 
 
         // lesson 20
         Lesson20 l20 = new Lesson20();
         l20.lesson20();
+        System.out.println(l20.myFunction("d", "v", "g"));
     }
 }
