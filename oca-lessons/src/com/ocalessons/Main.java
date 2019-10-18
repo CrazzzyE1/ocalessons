@@ -101,6 +101,14 @@ public class Main {
         Lesson19 l19 = new Lesson19();
         l19.lesson19();
 
+        String[] args1 = {"Hello" , "Oh"};
+        String[] s1 = {"Hello", "World"};
+        String[] s2 = {"Oh", "My", "God"};
+        String ss[] = l19.stringArrays(s1, s2);
 
+        l19.print(ss);
+        l19.equals(args1, ss);
+        l19.print(args1);
+        l19.print(ss);
     }
 }
