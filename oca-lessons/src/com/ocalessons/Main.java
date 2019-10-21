@@ -117,6 +117,6 @@ public class Main {
         // lesson 20
         Lesson20 l20 = new Lesson20();
         l20.lesson20();
-        System.out.println(l20.myFunction("d", "v", "g"));
+        System.out.println(l20.myFunction("d", "v", "g", "v", "p", "a", "c"));
     }
 }
