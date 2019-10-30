@@ -4,6 +4,7 @@ import com.ocalessons.lesson18.HomeTask;
 import com.ocalessons.lesson19.Lesson19;
 import com.ocalessons.lesson20.Lesson20;
 import com.ocalessons.lesson21.Lesson21;
+import com.ocalessons.lesson22.Lesson22;
 
 
 public class Main {
@@ -121,8 +122,12 @@ public class Main {
 //        l20.lesson20();
 //        System.out.println(l20.myFunction("d", "v", "g", "v", "p", "a", "c"));
 
-        //lesson 21
-        Lesson21 l21 = new Lesson21();
-        l21.start();
+//        //lesson 21
+//        Lesson21 l21 = new Lesson21();
+//        l21.start();
+
+        //lesson 22
+        Lesson22 l22 = new Lesson22();
+        l22.start();
     }
 }
