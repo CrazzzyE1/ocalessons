@@ -3,6 +3,7 @@ package com.ocalessons;
 import com.ocalessons.lesson18.HomeTask;
 import com.ocalessons.lesson19.Lesson19;
 import com.ocalessons.lesson20.Lesson20;
+import com.ocalessons.lesson21.Lesson21;
 
 
 public class Main {
@@ -115,8 +116,13 @@ public class Main {
 
 
         // lesson 20
-        Lesson20 l20 = new Lesson20();
-        l20.lesson20();
-        System.out.println(l20.myFunction("d", "v", "g", "v", "p", "a", "c"));
+//
+//        Lesson20 l20 = new Lesson20();
+//        l20.lesson20();
+//        System.out.println(l20.myFunction("d", "v", "g", "v", "p", "a", "c"));
+
+        //lesson 21
+        Lesson21 l21 = new Lesson21();
+        l21.start();
     }
 }
