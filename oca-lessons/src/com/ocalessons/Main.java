@@ -1,10 +1,7 @@
 package com.ocalessons;
 
-import com.ocalessons.lesson18.HomeTask;
-import com.ocalessons.lesson19.Lesson19;
-import com.ocalessons.lesson20.Lesson20;
-import com.ocalessons.lesson21.Lesson21;
 import com.ocalessons.lesson22.Lesson22;
+import com.ocalessons.lesson22.Student;
 
 
 public class Main {
@@ -129,5 +126,10 @@ public class Main {
         //lesson 22
         Lesson22 l22 = new Lesson22();
         l22.start();
+        Student student2 = new Student();
+        student2.setName(new StringBuilder("Vasia"));
+        student2.setCourse(3);
+        student2.setGrade(8);
+        student2.showInfo();
     }
 }
