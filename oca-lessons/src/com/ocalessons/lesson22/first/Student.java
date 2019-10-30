@@ -1,4 +1,4 @@
-package com.ocalessons.lesson22;
+package com.ocalessons.lesson22.first;
 
 public class Student {
 
