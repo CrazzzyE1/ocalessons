@@ -5,6 +5,7 @@ import com.ocalessons.lesson22.first.Student;
 import com.ocalessons.lesson22.second.Cat;
 import com.ocalessons.lesson22.second.Dog;
 import com.ocalessons.lesson23.Second;
+import com.ocalessons.lesson23.Y;
 
 
 public class Main {
@@ -141,7 +142,12 @@ public class Main {
 
         //lesson 23
 
-        Second sec = new Second();
-        sec.abc();
+//        Second sec = new Second();
+//        sec.abc();
+
+        Y a = new Y();
+        a.abc();
+        a.def();
+        a.ghi();
     }
 }
