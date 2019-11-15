@@ -4,6 +4,8 @@ import com.ocalessons.lesson22.first.Lesson22;
 import com.ocalessons.lesson22.first.Student;
 import com.ocalessons.lesson22.second.Cat;
 import com.ocalessons.lesson22.second.Dog;
+import com.ocalessons.lesson23.Second;
+import com.ocalessons.lesson23.Y;
 
 
 public class Main {
@@ -126,16 +128,26 @@ public class Main {
 //        l21.start();
 
         //lesson 22
-        Lesson22 l22 = new Lesson22();
-        l22.start();
-//        Student student2 = new Student();
-//        student2.setName(new StringBuilder("Vasia"));
-//        student2.setCourse(3);
-//        student2.setGrade(8);
-//        student2.showInfo();
-        Dog dog = new Dog("Bob");
-        System.out.println(dog.paw);
-        Cat cat = new Cat("Barcelona");
-        cat.sleep();
+//        Lesson22 l22 = new Lesson22();
+//        l22.start();
+////        Student student2 = new Student();
+////        student2.setName(new StringBuilder("Vasia"));
+////        student2.setCourse(3);
+////        student2.setGrade(8);
+////        student2.showInfo();
+//        Dog dog = new Dog("Bob");
+//        System.out.println(dog.paw);
+//        Cat cat = new Cat("Barcelona");
+//        cat.sleep();
+
+        //lesson 23
+
+//        Second sec = new Second();
+//        sec.abc();
+
+        Y a = new Y();
+        a.abc();
+        a.def();
+        a.ghi();
     }
 }
